@@ -6,6 +6,8 @@
 
 ![ALt text](https://github.com/kendada/FB_Rebound_Anim/blob/master/app/src/main/res/drawable/fb_go.png)
 
+[Facebook-Reound](http://facebook.github.io/rebound/)
+
 
 效果图：
 
