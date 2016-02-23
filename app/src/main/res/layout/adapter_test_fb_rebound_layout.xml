@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:listSelector="@color/transparent"
+        android:layout_alignParentBottom="true"
+        android:numColumns="4"
+        android:id="@+id/menu_grid_layout"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/menu_btn_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/menu_btn"
+        />
+
+</RelativeLayout>
